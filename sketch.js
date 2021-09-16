@@ -35,17 +35,17 @@ function setup(){
 	 //create a new visualisation container and add visualisations
 	 vis = new Visualisations();
 	 vis.add(new SoundUFO());
-     vis.add(new Wormhole());
-     vis.add(new Dark_Star());
-     vis.add(new Virus());
+	 vis.add(new Wormhole());
+	 vis.add(new Dark_Star());
+         vis.add(new Virus());
      
 
 }
 
 function draw(){
 	background(0);
-    //draw the controls on top.
-    controls.draw();
+        //draw the controls on top.
+        controls.draw();
 	//draw the selected visualisation
 	vis.selectedVisual.draw();
 	
