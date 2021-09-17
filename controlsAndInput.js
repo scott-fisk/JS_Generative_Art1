@@ -1,8 +1,6 @@
-//Constructor function to handle the onscreen menu, keyboard and mouse
-//controls
+//Constructor function to handle the onscreen menu, keyboard and mouse controls
+
 function ControlsAndInput(){
-	
-    var state = 0;
     
 	this.menuDisplayed = true;
 	
@@ -40,7 +38,7 @@ function ControlsAndInput(){
 			vis.selectVisual(vis.visuals[visNumber].name); 
 		}
         
-        //change stroke color
+        //change select visual color
         else if(keycode == 13){
             if (state < 3){
                 state +=1;
