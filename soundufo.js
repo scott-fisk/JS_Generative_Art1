@@ -25,7 +25,6 @@ function SoundUFO(){
         var maxDist;
         
         //Star effect background
-        //Re-used code from ITP1 to generate frantic space travel
         
         starPositions = [];
         starDirections = [];
