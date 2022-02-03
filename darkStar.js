@@ -15,11 +15,9 @@ function Dark_Star() {
         //background(0);
         var pos = translate(width / 2, height / 2);
         
-      
         for (var i = 0; i < spectrum.length; i++) {
         push();
         
-
         rotate(i*angle);
         //mirroring
         if (i % 2 == 1) {
@@ -52,7 +50,5 @@ function Dark_Star() {
         pop();
 
         }
-        
-
     };
 }
